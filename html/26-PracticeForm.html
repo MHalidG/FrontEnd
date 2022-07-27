@@ -7,27 +7,79 @@
     <title>Document</title>
   </head>
   <body>
-    <label for="isim">Adi</label>
-    <input type="text" id="isim" />
+    <form action="">
+      <label for="isim">Adi</label>
+      <input type="text" id="isim" />
 
-    <label for="soyisim">Soyadi</label>
-    <input type="text" id="soyisim" />
+      <label for="soyisim">Soyadi</label>
+      <input type="text" id="soyisim" />
 
-    <br />
-    <p>
-      Cinsiyet
-      <label for="">Bay</label>
-      <input type="radio" name="cinsiyet" id="" />
+      <br />
+      <p>
+        Cinsiyet
+        <label for="erkek">Bay</label>
+        <input type="radio" name="cinsiyet" id="erkek" />
 
-      <label for="">Bayan</label>
-      <input type="radio" name="cinsiyet" id="" />
+        <label for="kadin">Bayan</label>
+        <input type="radio" name="cinsiyet" id="kadin" />
+      </p>
+
+      <p>
+        <label for="Ilceler">Ilceler</label>
+        <select name="Ilce" id="">
+          <option value="01">Bakirkoy</option>
+          <option value="02">Bahcelievler</option>
+          <option value="03">GOP</option>
+          <option value="04">Beylikduzu</option>
+        </select>
+      </p>
+
+      <p>
+        <label for="mail">Eposta</label>
+        <input type="email" id="mail" />
+      </p>
+
+      <p>
+        <label for="site">Kisisel Site</label>
+        <input type="url" id="site" />
+      </p>
+
+      <p>
+        <label for="tel">Telefon</label>
+        <input type="tel" name="telefon" id="tel" />
+      </p>
+
+      <p>
+        Hobiler
+<div>
+        <label for="futbol">Futbol</label>
+        <input type="checkbox" name="" id="futbol" />
+    </div>
+    <div></div>
+        <label for="basketbol">Basketbol</label>
+        <input type="checkbox" name="" id="basketbol" />
+    </div>
+    <div></div>
+        <label for="voleybol">Voleybol</label>
+        <input type="checkbox" name="" id="voleybol" />
+    </div> 
     </p>
-    <p>Ilceler</p>
-    <select name="Ilce" id="">
-      <option value="01">Bakirkoy</option>
-      <option value="01">Ankara</option>
-      <option value="01">Ankara</option>
-      <option value="01">Ankara</option>
-    </select>
+
+<p>
+<label for="foto">Profil Fotosu</label>
+<input type="file" id="foto">
+</p>
+<p>
+<label for="tarih">DogumTarihi</label>
+<input type="date" id="tarih">
+</p>
+<p>
+<label for="adres">Adres</label>
+<textarea name="" id="adres" cols="30" rows="10"></textarea>
+</p>
+
+<input type="submit" value="Kaydet">
+<input type="reset" value="Resetle">
+    </form>
   </body>
 </html>
