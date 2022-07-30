@@ -1,0 +1,16 @@
+* {
+  text-align: center;
+}
+
+p {
+  font-size: 3rem;
+  background-color: wheat;
+}
+h1 {
+  text-align: center;
+  color: brown;
+  background-color: wheat;
+}
+h2 {
+  background-color: lightcoral;
+}
