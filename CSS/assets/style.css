@@ -14,3 +14,13 @@ h1 {
 h2 {
   background-color: lightcoral;
 }
+.Inception {
+  text-align: center;
+  color: rgb(42, 161, 165);
+  background-color: rgb(238, 33, 18);
+}
+
+h2.Inception {
+  background-color: rgb(103, 255, 69);
+}
+/* Dostum burda da commit alabiliyoruz java gibi beee main beee  */

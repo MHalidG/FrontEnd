@@ -1,0 +1,17 @@
+h1 {
+  background-color: palevioletred;
+}
+h3 {
+  background-color: palevioletred;
+}
+p {
+  background-color: palevioletred;
+}
+
+h3.blog {
+  background-color: blueviolet;
+}
+
+#son {
+  background-color: blueviolet;
+} /* attribute olarak id atarsak id yi diez le secebiliyoruz */
