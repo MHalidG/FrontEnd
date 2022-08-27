@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Link Stilleri</title>
+    <style>
+      h1 {
+        color: blue;
+      }
+
+      h1:hover {
+        font-size: 8ch;
+      }
+      a {
+        /*text-decoration: none;*/
+        text-decoration: underline;
+        /* text-decoration: overline;*/
+        /* text-decoration: dashed;*/
+      }
+
+      a:link {
+        background-color: burlywood;
+      }
+
+      a:active {
+        color: white;
+      }
+
+      ul {
+        /*list-style-type: none;
+    */
+        list-style-type: "😊";
+      }
+
+      /* a:visited {
+        color: brown;
+      }*/
+    </style>
+  </head>
+  <body>
+    <h1>Menu Denemesi</h1>
+    <ul>
+      <li><a href="#">Anasayfa</a></li>
+      <li><a href="#">Blog</a></li>
+      <li><a href="#">Urunler</a></li>
+      <li><a href="#">Iletisim</a></li>
+    </ul>
+
+    a:link{Ziyaret Edilmemis linkler uzerinde stil belirlenir} <br />
+
+    a:visited{Ziyaret edilmis linkler uzerinde stil belirlenir}
+    <br />
+    a:hover{Fare ile linkin uzerine gelindigi andaki stil belirlenebilir}
+    <br />
+    a:active{Fare Ile linkin uzerin tiklandigi andaki stil belirlenebilir}
+  </body>
+</html>
