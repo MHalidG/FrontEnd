@@ -1,0 +1,43 @@
+JavaScriptle Backend-Frontend-Mobil-Desktop icin uygulama gelistirilebiliyor.
+Yukselen Trend JavaScript
+
+Compile time ve run time ayriminda JS farkli bi durumda devamli bir compile and run sureci var
+cunku paket paket compile edip run ediyor
+Yuksek seviyeli bir dil. Sebebi de hafiza yonetimini program kendisi hallediyor. Kodlarken bunu dert etmiyoruz.
+intersepter bil dil yani yorumlayici
+Java script nesne tabanli programming.
+
+Identifier=Tanimlayici
+Yazim kurallari
+Genel Yazim kurallari
+camelCase 
+snake_case
+kebab-case
+Train-Case
+PascalCase
+MACRO_CASE
+
+JS'de gelenek
+camelCase
+PascalCase
+
+JS'nin test amacli kullanimi
+
+Tarayiciya sag tik incele
+sources basligi altindan snippeta gir
+yeni snippet ekle
+yazmaya basla
+
+Script en asagi yazilir Cunku biraz zaman alacagi icin once sayfa gorunsun o arada js kodlari yuklensin diye
+
+
+JS Case sensitive bir dildir.
+Sair sonlarina noktali virgul konmasa da olur konmasi makbul
+Identifierlar harf, _ veya $ ile baslayabilir ve bunlari icerebilir
+
+Identifierlar camelCasele yazilir
+
+Console
+JS de tarayicilarin konsol kismina bisey yazdirmak istersek Console kullaniriz
+Developer kendisi kullanir daha cok
+console.log("Mesaj buraya yazilir")
