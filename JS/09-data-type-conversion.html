@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <script>
+      let num = "13";
+      const result = num + 5;
+      console.log(result);
+
+      const result1 = Number(num) + 15;
+      console.log(result1);
+
+      const result2 = Number("Ali") + 55;
+      console.log(result2);
+      //NaN = Not a Number
+      console.log(" ");
+
+      const s1 = 5;
+      const s2 = -7;
+      const isim = "John";
+      console.log(Boolean(isim));
+      console.log(Boolean(s1));
+      console.log(Boolean(s2));
+
+      console.log(" ");
+
+      const s3 = 0;
+      console.log(Boolean(s3) + " sifir");
+      const s4 = null;
+      console.log(Boolean(s4) + " null");
+      const s5 = undefined;
+      console.log(Boolean(s5) + " undefined");
+      const bosluk = " ";
+      console.log(Boolean(bosluk) + " bosluk");
+      const bos = "";
+      console.log(Boolean(bos) + " bos");
+      const nanN = "Ses";
+      console.log(Boolean(Number(nanN)) + " Nan");
+
+      //Bos stringin ve sifirin false donmesi problem bi durum Nullish diye bir control mekanizmasi cikartildi EgmaScript 11 de
+    </script>
+  </body>
+</html>

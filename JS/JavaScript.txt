@@ -32,7 +32,7 @@ Script en asagi yazilir Cunku biraz zaman alacagi icin once sayfa gorunsun o ara
 
 
 JS Case sensitive bir dildir.
-Sair sonlarina noktali virgul konmasa da olur konmasi makbul
+Satir sonlarina noktali virgul konmasa da olur konmasi makbul
 Identifierlar harf, _ veya $ ile baslayabilir ve bunlari icerebilir
 
 Identifierlar camelCasele yazilir
@@ -41,3 +41,70 @@ Console
 JS de tarayicilarin konsol kismina bisey yazdirmak istersek Console kullaniriz
 Developer kendisi kullanir daha cok
 console.log("Mesaj buraya yazilir")
+
+
+
+DATATYPES
+variable tanimlanirken var yazilir case sensitivedir
+sabit tanimlamasi ise const diye yapilir ve mutlaka ilk deger atamasi yapilmalidir.
+Degisken isimlendirilirken hem harf hem de sayi kullanilabilir fakat basa sayi ve ozel karakterler konulmaz(Identifier kurali burada da var).
+
+Degisken belirlerken degisken tipini sinifini belirlemiyorsun.
+ornek
+var isim="Halid";
+tek tirnakla yada cift tirnakla atama yapilabiliyor
+
+var yas=18;
+tam sayi ve decimal alabiliyor
+2uzeri53-1e kadar number alabiliyor
+2uzeri1024 kadar da decimal aliyor
+
+bir degiskene once number sonra string atanabiliyor yada tam tersi
+
+BigInt diye bir variable tipi daha var o da budur.
+var x=100n; olarak belirliyoruz. Sonuna bir n koyuyoruz bu da big init oluyor.
+
+Boolean= true, false tasiyor.
+var emekli=true;
+
+
+Symbol veri tipi yani tamamen orjinal hashli veri
+var id = Symbol();
+
+var isim; deger verilmemis degisken tiplerine Undefined denir.
+
+null
+var isim=null;
+
+Object
+array,object
+dizi veya nesneleri saklamaya yarayan veri turu
+
+
+temel 6 veri tipi vardir bunlar String,Number,Boolean,Undefined,Null,Object
+ekstra olanlar da bigInit ve Symboldur.
+
+typeof methodu sabitler ve degiskenlerin tipini gosteriyor,
+
+var ile degisken tanimlandiginda ayni isimde baska bir degisken tanimlanmasina izin verir,
+let ile tanimlandiginda vermez
+
+OPERATORLER
+
+ARITMETIK OPERATORLER
++-*/ 
+** us alma sayinin ussu yani= 5**3 bes uzeri 3 demek
+% Mod alma yani kalan hesaplama
+++ sayinin degerini bir artirir
+--sayinin degerini bir azaltir
+
+KARSILASTIRMA OPERATORLERI
+MANTIKSAL OPERATORLER
+ATAMA OPERATORLERI
+
+
+
+
+
+
+
