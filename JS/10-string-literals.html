@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <script>
+      var name = "Ali";
+      var sehir = "Istanbul";
+
+      var bektik = `
+      x=12;
+      y=15;
+      `;
+      console.log(bektik);
+      console.log("Merhaba " + name + " nasilsin?");
+
+      console.log(
+        "Merhaba " + name + " Nasilsin? " + sehir + " sehrinde havalar nasil?"
+      );
+
+      console.log(`Merhaba ${name} Nasilsin? ${sehir} sehrinde havalar nasil?`);
+
+      const yil = 2021;
+      const dT = 1994;
+      const yas = yil - dT;
+
+      console.log("YAS:" + yas);
+      console.log("YAS:" + yil - dT); //NaN donuyor cunku Stringten sayi cikmaz NaN verir
+      const pi = 3;
+      const r = 3;
+      const alan = pi * r ** 2;
+      const cevre = 2 * pi * r;
+      console.log(cevre, alan);
+      console.log("CEVRE:" + cevre, "ALAN:" + alan);
+
+      let a = 3;
+      let b = ++a;
+      console.log(a, b);
+      let c = --a;
+      console.log(a, c);
+      console.log(a, b, c);
+
+      a += 5;
+      console.log(a);
+    </script>
+  </body>
+</html>
