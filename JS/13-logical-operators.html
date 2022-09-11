@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <script>
+      //0,false,null, undefined, ""  ve NaN disindaki durumlar
+      //True olarak kabul edilir.
+
+      let x = false;
+      let y = true;
+      let z = true;
+      let m = false;
+      let n = "false";
+
+      const comporation1 = true && null;
+
+      console.log(comporation1);
+
+      const comporation2 = y && z && 5;
+      //sonuc olarak 5 gosteriyor cunku y ve z esittir true dooner
+      //True ile 5 karsilastirilinca karsilastirilamaz oldugu icin son elemani
+      //bize donduruyor
+      console.log(comporation2);
+
+      const comporation3 = y && m && z && 5;
+      console.log(comporation3);
+      //ilk false buldugu zaman gerisine bakmiyor ve false donduruyor ve operatorunde tek false sonucu false donduruyor cunku
+
+      const comporation4 = false && null;
+      console.log(comporation4);
+
+      const comporation5 = z || 34;
+      console.log(comporation5);
+
+      const comporation6 = m || x || false || 34;
+      console.log(comporation6);
+
+      const comporation7 = n || 34;
+      console.log(comporation7);
+
+      const comporation8 = n && 34;
+      console.log(comporation8);
+    </script>
+  </body>
+</html>

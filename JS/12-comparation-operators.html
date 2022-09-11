@@ -13,9 +13,32 @@
       let z = "30";
 
       const compration1 = x == y;
-      const compration2 = x == z;
-      const compration3 = x === z;
+      const compration2 = x == z; //Tip karsilastirmadan deger karsilastiriyor
+      const compration3 = x === z; //Tip ve degeri beraber karsiliyor
       console.log(compration1, compration2, compration3);
+
+      //!== degil mi? diye soruyoruz hem deger hem tip karsilastirmasi
+      //!= degil mi? diye soruyoruz tipten bagimsiz sadece deger karsilastirmasi yapioruz
+      // buyuktur >
+      //kucuktur <
+      // buyukesit >=
+      //kucuk esit <=
+      //Karsilastirma islemlerinin sonucu True veya False olur.
+
+      console.log("z" > "c"); // ASCI kodlarina gore karsilastiriyor
+      //a en kucukharf z en buyuk harf oluyor
+      console.log(1 > "g");
+      //karsilastirma yapamadigi durumlarda false veriyor
+      //number ile bir harfin degerini karsilastiramiyor
+      //ikisi de dezavantaj sayilabilir
+
+      //And , Or, Not operatorleri
+      //ve veya degildir operatorleri
+      var a = 50;
+      const b = a > 5 && a < 80;
+      const c = a < 5 || a > 49;
+      const d = !a > 50;
+      console.log(b, c, d);
     </script>
   </body>
 </html>
