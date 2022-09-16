@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>DocumentObjectModel--DOM</title>
+  </head>
+  <body>
+    <h1>Hello World</h1>
+
+    <p class="desc">
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. <br />
+      Obcaecati <b>molestias ut commodi at officiis</b> nesciunt non quibusdam
+      <br />
+      sequi neque porro, iure, dicta minima qui ullam unde? Iusto temporibus
+      consequatur quaerat.
+    </p>
+
+    <ul class="menu">
+      <li>Home</li>
+      <li>About</li>
+      <li>Contact</li>
+    </ul>
+
+    <script>
+      //DocumentObjectModel--DOM
+      /*
+document object-
+querySelector-
+innerText-
+innerHtml-
+value-
+onclick- 
+ 
+Incele dedigimiz zaman tarayici bize yazdigimiz 
+butun kodlari derleyip
+belirli bir organizasyon yapisina ceviriyor
+ve bize sematik bir document olusturuyor
+buna DOM diyoruz. Butun elementlerin sahibidir
+sayfa icindeki bir nesneye ersismek istenilirse document nesnesi 
+kullanilir
+*/
+
+      // document.querySelector(h1);
+      //bir eleman donderir. parantez icine yazilan elemanin sayfada buldugu
+      //ilkini secer
+
+      //document.querySelectorAll(h1);
+      //dizi halinde istenilen elementlerin hepsini verir
+      const elH1 = document.querySelector("h1");
+      console.log(elH1);
+      const elH2 = document.querySelector("ul");
+      console.log(elH2);
+      const elH3 = document.querySelector("b");
+      console.log(elH3);
+
+      console.log(elH1.innerText);
+
+      const allH1 = document.querySelectorAll("h1");
+      console.log(allH1);
+
+      const allLi = document.querySelectorAll(".menu li");
+      console.log(allLi);
+
+      const allLi1 = document.querySelector(".menu li:first-child");
+      console.log(allLi1);
+
+      allLi1.innerText = "KiritoOlur";
+      // Texti manipule ediyoruz
+      elH3.innerHTML = "<em>KiritoOlur</em>";
+      //Html tagi da ekleyebiliyoruz
+      elH1.innerText = "Hello JavaScript"; //inner texti guncelledik
+      const elDesc = document.querySelector(".desc");
+
+      console.log(elDesc.innerText);
+      //taglari temizleyip getiriyor
+      console.log(elDesc.innerHTML);
+      //taglarla getiriyor
+    </script>
+  </body>
+</html>
