@@ -1,0 +1,35 @@
+:root {
+  --color1: rgb(27, 27, 27);
+  --color2: rgb(238, 238, 238);
+}
+
+body {
+  padding: 20px;
+}
+.main-box {
+  background-color: var(--color1);
+  padding: 20px;
+}
+h2 {
+  color: white;
+}
+
+.main-box .sub-box {
+  background-color: var(--color2);
+  padding: 20px;
+}
+
+.main-box .code-box {
+  background-color: rgb(212, 212, 212);
+  padding: 10px;
+  margin-bottom: 20px;
+}
+.main-box button {
+  padding: 5px 10px;
+  background-color: rgb(0, 128, 6);
+  border: none;
+  color: white;
+}
+.main-box a {
+  color: black;
+}

@@ -1,0 +1,26 @@
+.block-inline {
+  background-color: red;
+  text-align: center; /*inline elemanlari hizalamak icin tex allign kullanilabilir*/
+}
+
+.block-inline b {
+  background-color: rgba(7, 254, 225, 0.951);
+}
+.block-block {
+  margin-top: 50px;
+  background-color: cornflowerblue;
+  text-align: center;
+}
+
+.block-block div {
+  background-color: greenyellow;
+  width: 100px;
+  margin-right: 0px;
+  margin-left: auto;
+  /*Block icindeki blocku hizalamak icin trickler var*/
+  /*
+  saga hizalama icin sag margin 0 sol oto ayarlanmali
+  sola hizalama icin sol margin 0 sag oto ayarlanmali
+  ortalama icin left oto rigth oto olmali 
+  */
+}
