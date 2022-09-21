@@ -1,5 +1,12 @@
 .container {
   background-color: cornsilk;
-  width: 40rem;
-  height: 40rem;
+  width: 60%;
+  height: 60vh;
+  color: aqua;
+}
+
+.kutu1 {
+  background-color: brown;
+  margin: 100px;
+  padding: 100 px;
 }

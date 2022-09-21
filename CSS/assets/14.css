@@ -1,0 +1,36 @@
+* {
+  font-family: "Roboto", sans-serif;
+}
+
+.bodylist {
+  background-color: gainsboro;
+
+  margin-left: 0;
+  margin-right: auto;
+  padding: 0;
+}
+
+.li1 {
+  background-color: darkgray;
+}
+
+ul.menu {
+  margin-left: 0;
+  margin-right: auto;
+  list-style-type: "🔹";
+}
+ul.menu li:hover {
+  background-color: gray;
+  color: white;
+}
+nav.menu {
+  background-color: lightgray;
+  width: 8rem;
+}
+li.item:hover {
+  background-color: grey;
+}
+a.link {
+  text-decoration: none;
+  color: black;
+}

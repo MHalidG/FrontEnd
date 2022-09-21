@@ -1,0 +1,32 @@
+nav.menu {
+  background-color: gray;
+  width: 25vw;
+  color: var(--red);
+}
+
+a {
+  text-decoration: none;
+}
+li {
+  list-style-type: none;
+}
+li:hover {
+  background-color: var(--mavi);
+}
+
+:root {
+  --mavi: #1e90ff;
+  --red: #ff0000;
+}
+
+/*
+Aralarina virgul konarak birden fazla select islemi yapilabilir
+ornek
+.li , 
+.ul ,
+.menu{
+    background-color:black;
+}
+
+Misal yani bu
+*/
