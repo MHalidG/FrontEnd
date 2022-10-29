@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      .red {
+        background-color: red;
+      }
+      .blue {
+        background-color: blue;
+      }
+      .text-center {
+        text-align: center;
+      }
+
+      .text-style {
+        color: green;
+        text-shadow: 3px 3px 5px black;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>DOM Document Object Model 2</h1>
+    <p id="pEl" class="red text-center">
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis fugiat
+      earum, repellat <b>suscipit</b> voluptas nostrum inventore accusamus
+      quibusdam magnam unde, rem tempora commodi iusto sit mollitia. Earum
+      debitis nesciunt officia!
+    </p>
+
+    <script>
+      //el.classList; Css elemanlarini dizi seklinde getiriyor. Dizi oldugu icin
+      //koseli parantez icerisinde elemanin indexini yazarak da getirebiliyoruz.
+      //classList methodlari
+      // .add(), .remove(),
+
+      let pEl = document.querySelector("#pEl");
+
+      pEl.classList.add("text-style");
+
+      console.log(pEl.classList);
+
+      pEl.classList.remove("red");
+
+      pEl.classList.add("blue");
+    </script>
+  </body>
+</html>
