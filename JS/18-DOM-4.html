@@ -7,9 +7,33 @@
     <title>Document</title>
   </head>
 
-  Java Script 3.videonun 1.11.14 saniyesindeyiz
+  <input type="text" id="txtName" value="Veli Bey" />
+  <button onclick="sayHello()">Say Hello</button>
+
+  <h3 id="lblMessage">...</h3>
 
   <body>
-    <script></script>
+    <script>
+      let x = "hello";
+      let y = 5;
+      let z = true;
+
+      let p = new Array();
+      let k = new Object();
+
+      //Objeler Referans tip degiskenlerdir. Konteynirlarinda objenin adresi bulunur
+
+      const lblMessage = document.querySelector("#lblMessage");
+
+      function sayHello() {
+        const txtName = document.querySelector("#txtName").value;
+        //kutunun kendisini ele alip onun degerini getirdigimiz icin
+        //Her seferinde degerini getirir.
+
+        //ReferenceType
+        //ValueType Oku
+        lblMessage.innerText = `Merhaba ${txtName}`;
+      }
+    </script>
   </body>
 </html>
