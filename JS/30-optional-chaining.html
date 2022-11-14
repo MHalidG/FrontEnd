@@ -7,7 +7,47 @@
     <title>Document</title>
   </head>
   <body>
-    <h1>TemplateEklememekIcinYazilmistir Dikkate Almayiniz</h1>
-    <script></script>
+    <button onclick="setUserInfo()">Click Me</button>
+
+    <h3 id="result"></h3>
+
+    <script>
+      const user1 = {
+        name: "Ali",
+        age: 21,
+        salary: 15000,
+        phone: {
+          gsm: "23424242",
+          line: "23423423423",
+        },
+      };
+
+      const user2 = {
+        name: "Ayşe",
+        age: 21,
+      };
+
+      const user3 = {
+        name: "Ayşe",
+        age: 21,
+      };
+
+      function setUserInfo() {
+        const newSalary = user2.salary * 1.15;
+
+        const phone = user2?.phone?.gsm;
+
+        /* ES11 önesi kullanılan yöntem
+        if(user2 && user2.phone && user2.phone.gsm){
+            document.querySelector(".gsm").innerHTML = user2.phone.gsm;
+        }
+        else{
+          document.querySelector(".gsm").innerHTML = "no phone";
+        }
+      */
+
+        console.log(`Sn. ${user2.name} yeni maaşınız ${newSalary} olmnuştur`);
+      }
+    </script>
   </body>
 </html>
