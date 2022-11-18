@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <input type="text" id="txtNumber" />
+    <button onclick="calculate()">Calculate</button>
+    <h4 id="result"></h4>
+
+    <script>
+      if (isNaN(price) || isNaN(tax) || isNaN(discount)) return;
+      const calculatePrice = (price, tax, discount) => {
+        const result = price + (price * tax) / 100 - (price * discount) / 100;
+        return result;
+      };
+
+      console.log(calculatePrice("", "", ""));
+    </script>
+  </body>
+</html>

@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <h1>Expression Yontemi-Arrow Function Yontemi</h1>
+
+    <script>
+      const yasHesapla = function (dogumTarihi) {
+        return 2022 - dogumTarihi;
+      };
+      yasHesapla();
+
+      //Diger fonksiyon call methodlarinda  satir sirasina dikkat etmeden
+      //Bagimsiz calistirdigi icin yukaridaki gibi expression yonetmi gibi method tanimlamalari kullaniliyor
+      /*
+      bir field create edip fonksiyonu ona baglamis oluyoruz ki fieldin sirasi geldiginde 
+      fonksiyon da calissin oncesinde calismasin
+      Fonksiyonlarin calisma siralarini belirlemek icin kullanilan bir method
+      */
+
+      /*
+      Arrow Function
+      Arrow Function da Expression function gibi fonksiyonlari
+      siraya tabi tutmamizi saglar
+         
+      Tek satirda da yazilabiliyor tek satirda yazildiginda return ve ssuslu parantez ihtiyacimiz yok
+      Fakat birden fazla statement varsa  suslu parantez gerekir ve neyi return 
+      etmesi gerektigini de belirtmek icin return yazmak lazim.
+      */
+      const yasHesaplaArrow = (dogumTarihi) => 20222 - dogumTarihi;
+
+      let yas = yasHesaplaArrow(2000);
+
+      const yasHesaplaArrow1 = (dogumTarihi) => {
+        20222 - dogumTarihi;
+        return 2022 - dogumTarihi;
+      };
+      let yas1 = yasHesaplaArrow(2000);
+    </script>
+  </body>
+</html>
