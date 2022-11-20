@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <script>
+      const cities = ["Istanbul", "Canakkale", "Erzurum", "Corum", "Yozgat"];
+
+      console.log(cities);
+      console.log(typeof cities); //type Object donuyor ilginc
+      console.log(cities[2]); //dizi elemanlarina ulasmak icin index no kullanilir
+      console.log(cities.length); //Dizinin eleman sayisini verir
+      console.log(cities[cities.length - 1]); //Dizinin son elemanini verir
+      console.log(cities[5]); //undefined
+      cities[2] = "Italy";
+      console.log(cities);
+
+      //const olsa bile obje de dizi de elemanlari degistirilebilir. Nonprim olmayan data typelar icin boyledir
+      //Sebebi ise primitivlerin datalarini bellekte tutar nonprim lerin referans numarasini tutar
+      //yeni bir atama yapildiginda objenin ref no degismedigi icin sorun olmaz.
+    </script>
+  </body>
+</html>
