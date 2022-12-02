@@ -7,8 +7,38 @@
     <title>Document</title>
   </head>
   <body>
-    <h1>TemplateEklememekIcinYazilmistir Dikkate Almayiniz</h1>
+    <script>
+      const meyveler = ["Elma", "Armut", "Muz", "Kivi"];
+      console.log(meyveler);
+      meyveler.pop();
+      //dizinin son elemanini siler ve sildigi elemani dondurur
+      console.log(meyveler);
+      meyveler.push("Ananas");
+      //Dizinin sonuna bir veya daha fazla eleman ekler ve dizinin yeni eleman sayisini dondurur
+      console.log(meyveler);
+      meyveler.shift();
+      //Dizinin ilk elemanini diziden siler ve bu elemani dondurur
+      console.log(meyveler);
+      meyveler.unshift("Çilek");
+      //Dizinin ilk indeksine yeni bir eleman ekler(ilk elemani degistirmez kaydirir)
+      //ve dizinin yeni eleman sayisini dondurur
+      console.log(meyveler);
+      meyveler.reverse();
+      //Dizinin elemanlarini ters siralar
+      console.log(meyveler);
+      meyveler.sort();
+      //Dizeyi yukselen sirada siralar
+      console.log(meyveler);
 
-    <script></script>
+      meyveler.splice(1, 0, "Kiraz");
+      //Dizinin iceriklerini yeni ogeler ekleyerek mevcut ogelerini silerek gunceller
+      console.log(meyveler);
+      meyveler.splice(2, 2);
+      console.log(meyveler);
+      meyveler.splice(1, 1, "Ceviz", "Fındık");
+      console.log(meyveler);
+      meyveler.splice(0, meyveler.length);
+      console.log(meyveler);
+    </script>
   </body>
 </html>
